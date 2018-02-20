@@ -42,3 +42,10 @@ symphony.sh --> web de recipes
 php bin/console security:check --> Comprueba vulnerabilidades de los paquetes
 
 git diff composer.json --> Cambios desde el ultimo commit
+
+5.0 - Instalar Twig
+composer require twig
+
+6.0 - Usar Twig
+
+Referencia Twig --> twig.symfony.com
