@@ -70,3 +70,13 @@ How to test?
   * Run php bin/phpunit
 
 composer unpack debug --> aparecen las librerias de un paquete en composer.json
+
+9.0 Assets: CSS & JavaScript
+
+rm -rf var/cache/dev/*
+
+composer require asset
+
+TRUCO para autocompletar con asset:
+Go back into PhpStorm's Preferences, search for "Symfony" and find the "Symfony" plugin. Change the "web" directory to public - it was called web in Symfony 3.
+
