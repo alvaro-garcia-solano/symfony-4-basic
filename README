@@ -71,7 +71,7 @@ How to test?
 
 composer unpack debug --> aparecen las librerias de un paquete en composer.json
 
-9.0 Assets: CSS & JavaScript
+9.0 - Assets: CSS & JavaScript
 
 rm -rf var/cache/dev/*
 
@@ -80,3 +80,11 @@ composer require asset
 TRUCO para autocompletar con asset:
 Go back into PhpStorm's Preferences, search for "Symfony" and find the "Symfony" plugin. Change the "web" directory to public - it was called web in Symfony 3.
 
+10.0 - Generating URLs
+
+php bin/console debug:router
+
+En el constructor se cambia el nombre a la ruta:
+@Route("/", name="app_homepage")
+
+href="{{ path('route_name') }}"
