@@ -1,0 +1,34 @@
+Tutorial: https://knpuniversity.com/screencast/symfony/setup
+
+1.0
+1.1 - Crear proyecto
+composer self-update
+composer create-project symfony/skeleton the_spacebar
+
+1.2 - Arrancar servidor
+cd the_spacebar
+php -S 127.0.0.1:8000 -t public
+
+INFO SERVIDORES NGINX / APACHE --> http://bit.ly/symfony-web-servers
+
+1.3 - Git
+git add .
+git commit -M 'Mensaje'
+
+2.0
+2.1 - Instalando el servidor
+En la consola del servidor Ctrl + C
+composer require server
+
+php bin/console server:run
+
+2.2 - Configurar PHP Storm
+
+3.0 - Routers, controladores y páginas
+
+3.1  Annotations
+What exactly are annotations? They're PHP comments that are read as configuration.
+
+composer require annotations
+
+4.0 - Flex & Alias
