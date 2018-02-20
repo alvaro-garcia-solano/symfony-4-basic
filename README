@@ -32,3 +32,13 @@ What exactly are annotations? They're PHP comments that are read as configuratio
 composer require annotations
 
 4.0 - Flex & Alias
+composer require sec-checker
+
+This package will only be used while developing. So, it would be even better to run:
+composer require sec-checker --dev
+
+symphony.sh --> web de recipes
+
+php bin/console security:check --> Comprueba vulnerabilidades de los paquetes
+
+git diff composer.json --> Cambios desde el ultimo commit
