@@ -62,3 +62,11 @@ dump($slug, $this); --> en el controlador
 8.1 Eliminar de un "paquete" (conjunto de librerias) una libreria concreta
 
 composer require debug --dev
+
+Output:
+How to test?
+
+  * Write test cases in the tests/ folder
+  * Run php bin/phpunit
+
+composer unpack debug --> aparecen las librerias de un paquete en composer.json
