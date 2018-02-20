@@ -49,3 +49,16 @@ composer require twig
 6.0 - Usar Twig
 
 Referencia Twig --> twig.symfony.com
+
+7.0 - Web Debug Toolbar & the Profiler
+
+composer require profiler --dev
+
+dump($slug, $this); --> en el controlador
+{{ dump }} --> en la vista
+
+8.0 - Debugging & Packs
+
+8.1 Eliminar de un "paquete" (conjunto de librerias) una libreria concreta
+
+composer require debug --dev
