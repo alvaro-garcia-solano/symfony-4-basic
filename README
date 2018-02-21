@@ -88,3 +88,9 @@ En el constructor se cambia el nombre a la ruta:
 @Route("/", name="app_homepage")
 
 href="{{ path('route_name') }}"
+
+11.0 - JavaScript & Page-Specific Assets
+
+Se añade fichero js con funcionalidad encender/apagar corazon de me gusta
+
+12.0 - JSON API Endpoint
