@@ -94,3 +94,10 @@ href="{{ path('route_name') }}"
 Se añade fichero js con funcionalidad encender/apagar corazon de me gusta
 
 12.0 - JSON API Endpoint
+
+My JSON looks pretty thanks to the JSONView extension for Chrome!
+
+https://knpuniversity.com/tracks/javascript#modern-javascript
+
+13.0 - Services
+
