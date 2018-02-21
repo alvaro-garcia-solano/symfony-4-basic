@@ -99,5 +99,10 @@ My JSON looks pretty thanks to the JSONView extension for Chrome!
 
 https://knpuniversity.com/tracks/javascript#modern-javascript
 
-13.0 - Services
+13.0 - Services ("Herramientas")
 
+tail -f var/log/dev.log --> Para servicio Logger
+
+Autowiring -> le pasas al controlador un type hint y ya puedes usar el servicio
+
+./bin/console debug:autowiring
